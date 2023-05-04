@@ -1,4 +1,5 @@
-song = "";
+song1 = "";
+song2 = "";
 
 rightWristX = 0;
 rightWristY = 0;
@@ -8,7 +9,8 @@ leftWristY = 0;
 
 function preload()
 {
- song = loadSound("NaatuNaatu.mp3");
+ song1 = loadSound("NaatuNaatu.mp3");
+ song2 = loadSound("Janani.mp3");
 }
 
 function setup()
